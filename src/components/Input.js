@@ -30,6 +30,7 @@ export default function Input({ label, ...props }) {
 const styles = StyleSheet.create({
   label: {
     fontSize: 20,
+    fontFamily: "CircularStd",
   },
   error: {
     color: "red",
